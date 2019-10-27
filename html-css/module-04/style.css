@@ -1,1 +1,13 @@
 
+
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  
+  background-color: blue;
+}
+
+.menu {
+  display: inline-block;
+}

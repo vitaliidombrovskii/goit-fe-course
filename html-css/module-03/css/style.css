@@ -1,0 +1,137 @@
+html {
+  width: 900px;
+  margin: 0;
+}
+
+body {
+  display: inline-block;
+}
+body {
+  font-family: "Playfair+Display";
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav {
+  margin-top: 76px;
+  margin-bottom: 104px;
+}
+
+.menu {
+  padding: 0;
+}
+.menu li {
+  font-family: "Playfair+Display";
+  font-size: 14px;
+  line-height: 24px; 
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+ }
+
+ .menu li:not(:last-child){
+  margin-right: 100px;
+ }
+
+.menu a {
+color: #626262;
+font-weight: 400;
+}
+.menu a:hover {
+  color: blue;
+}
+.menu {
+  list-style: none;
+}
+
+/*основний контент*/
+
+.container-item {
+  display: inline-block;
+}
+.container {
+  font-size: 0;
+}
+.container-item {
+  padding: 0; 
+  width: 420px;
+  }
+
+.container-item {
+  margin: 0px 60px 0px 0px;
+}
+
+.container-item:nth-child(2n){
+  margin-right: 0;
+}
+
+img {
+  width: 420px; height: 280px;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px; 
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 36px; 
+}
+
+p {
+  font-size: 14px;
+}
+
+
+
+/*КНОПКА*/
+
+.button {
+  display: inline;
+}
+.button {
+  font-size: 0;
+  width: 165px;
+  height: 60px;
+} 
+.button {
+  font-size:20px;
+  line-height: 24px;
+}
+
+.button {
+  border-color: #626262;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0;
+  width: 165px;
+  height: 60px;
+}
+.button {
+  background-color: transparent;
+}
+
+.button:hover{
+  color: blue;
+}
+.push {
+  text-align: center;
+  cursor: pointer;
+}
