@@ -49,6 +49,14 @@ font-weight: 400;
 }
 
 /*основний контент*/
+.main-container {
+  font-style: none;
+  width: 1110px;
+  margin: 0;
+  height: 0;
+  }
+
+
 
 .container-item {
   display: inline-block;
