@@ -5,30 +5,24 @@
 }
 
 .page-header {
+  width: 1110px;
   text-align: center;
   padding-bottom:27px;
   margin-bottom: 112px;
+  margin: 0 auto;
 }
 
 .page-navigation {
   margin: 0;
-  float: left;
-  
-  /* margin-bottom: 112px; */
 }
+
 .site-logo {
-  display: inline-block;
-  margin: 5px 568px 0px 0px;
+  margin-top: 5px;
   padding: 0;
   float: left;
 }
 
 
-/* .clearfix::after {
-  display: table;
-  content: '';
-  clear: both;
-} */
 
 .menu-item a:hover {
   color:#1abc9c;
@@ -40,8 +34,7 @@ a {
 
 .site-navigation {
   font-size: 11px;
-  width: 464px;
-  float: left;
+  float: right;
   padding: 0px;
   text-transform: uppercase;
 }
@@ -63,6 +56,8 @@ a {
 
 .main-container{
   font-size: 0;
+  width: 1110px;
+  margin: 0 auto;
 }
 .name-box {
   list-style: none;
@@ -70,7 +65,6 @@ a {
   font-size: 48px;
   text-transform: uppercase;
   text-align: center;
-  margin: 0px;
   padding: 0px;
   margin-bottom: 94px;
   display: block;
@@ -80,18 +74,17 @@ a {
 .name-box::after {
   content:"";
   background-color: rgb(26, 188, 156);
-  position: relative;
   display: block;
-  margin-top: 32px;
-  left: 473px;
+  margin: 32px auto;
   width: 164px;
   height: 7px;
-  /* z-index: 109; */
 }
 
-
+.box-item{
+  height: 100%;
+  overflow: hidden;
+}
 .products {
-  font-size: 0px;
   display: block;
   width: 255px;
   height: 322px;
@@ -178,10 +171,13 @@ a {
   margin-top: 13px;
   width: 136px;
   height: 3px;
-  /* z-index: 109; */
 }
 
-
+.new-img{
+  display: block;
+  object-fit: cover;
+  
+}
 
  p {
   font-family: "Open Sans", sans-serif;
