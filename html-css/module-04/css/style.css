@@ -6,34 +6,40 @@
 
 .page-header {
   width: 1110px;
-  text-align: center;
-  padding-bottom:27px;
+  /* text-align: center; */
+  /* padding-bottom:27px; */
   margin-bottom: 112px;
   margin: 0 auto;
 }
 
-.page-navigation {
+.page-navigation-clearfix {
   margin: 0;
 }
-
-.site-logo {
-  margin-top: 5px;
-  padding: 0;
+.site-logo img{
+  margin-top: 12px;
+}
+.site-logo-clearfix {
+  margin-top: 6px;
+  padding: 25px 0;
   float: left;
 }
 
-
-
+.menu-item a {
+  color: #0f0101;
+}
 .menu-item a:hover {
   color:#1abc9c;
 }
 
 a {
   text-decoration: none;
+
 }
 
 .site-navigation {
-  font-size: 11px;
+  font-family: "Open Sans", "Arial", "sans-serif";
+  color: #0f0101;
+  font-size: 14px;
   float: right;
   padding: 0px;
   text-transform: uppercase;
