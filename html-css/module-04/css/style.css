@@ -6,8 +6,6 @@
 
 .page-header {
   width: 1110px;
-  /* text-align: center; */
-  /* padding-bottom:27px; */
   margin-bottom: 112px;
   margin: 0 auto;
 }
@@ -33,11 +31,10 @@
 
 a {
   text-decoration: none;
-
 }
 
 .site-navigation {
-  font-family: "Open Sans", "Arial", "sans-serif";
+  font-family: "Open Sans", "sans-serif";
   color: #0f0101;
   font-size: 14px;
   float: right;
@@ -48,7 +45,7 @@ a {
 .site-navigation li {
   float: left;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   list-style: none;
 }
 
@@ -57,11 +54,9 @@ a {
   }
 
  
- 
   /* Верхній контейнер PRODUCTES */
 
 .main-container{
-  font-size: 0;
   width: 1110px;
   margin: 0 auto;
 }
@@ -89,6 +84,7 @@ a {
 .box-item{
   height: 100%;
   overflow: hidden;
+  
 }
 .products {
   display: block;
@@ -155,8 +151,12 @@ a {
 
 .news {
   margin-right: 30px;
-
 }
+
+.news-box{
+  font-size: 0;
+}
+
 .news:last-child {
   margin-right: 0px;
 }
@@ -182,7 +182,6 @@ a {
 .new-img{
   display: block;
   object-fit: cover;
-  
 }
 
  p {
@@ -205,5 +204,4 @@ a {
   line-height: 26px; 
   background: #4ec6ab;
   margin-top: 17px;
-
  }
