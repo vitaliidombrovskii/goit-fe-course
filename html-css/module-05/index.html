@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page">
-<div class="container">
-  <header class="page-header">
+  <div class="container-fluid container-fluid--cards">
+  
+  <div class="container">
+  <header class="page-header-clearfix">
     <nav class="page-navigation">
       <a href="#" class="site-logo">
-        <img src="image/LOGO.png" alt="logo" width="78" height="22">
+        <img src="image/LOGO.png" alt="logo">
       </a>
 
       <ul class="site-navigation">
@@ -43,14 +45,20 @@
         <section class="slider-tours">
             <div class="slider-container">
               <div class="slider-card">
-                <button class="slider-button slider-button-left">
+                <button class="slider-button left-arrow">
+                </button>
+                <button class="slider-button right-arrow">
+                </button>
+
+
+                <!-- <button class="slider-button slider-button-left">
                   <img src="image/стрілка ліворуч.png" alt="img">
                 </button>
                 <button class="slider-button slider-button-right">
                   <img src="image/срілка праворуч.png" alt="img">
-                </button>
-                <!-- <div class="slider-title">
-                </div> -->
+                </button> -->
+
+
                 <ul class="slides"> 
                   <li class="slides-item">
                       <img class="slides-image" src="image/baner.png" alt="baner" width="">
@@ -73,9 +81,9 @@
             </div>
         </section>
 
-        <section class="bottom-box">
+        <section class="bottom-box clearfix">
             <h2 class="name-box">New collection</h2>
-              <div class="box-item">
+              <div class="box-item clearfix">
                 <div class="products">
                   <div class="products-img">
                     <img src="image/image1.png" alt="shoes" class="img">
@@ -182,12 +190,13 @@
                           <span>Add to card</span>
                         </button>
                 
-                </div>      
+                </div>
                 </div>
               </div>
         </section>
     </div>
   </main>
+</div>
   <footer>
     <div class="info">
     <p class="info-ownership">All Rights Reserved © Dokan | Designed 
