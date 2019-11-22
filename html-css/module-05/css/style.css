@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-.container-fluid--cards {
-  min-height: 676px;
-  background-color: #e9f0fd;
-}
 .container {
   max-width: 1110px;
   margin: auto;
@@ -218,11 +214,15 @@ a {
 
   /* НИЖНІЙ КОНТЕЙНЕР */
 
+.container-fluid--cards {
+    min-height: 676px;
+    background-color: #e9f0fd;
+  }  
+
 .bottom-box{
   background-color: rgb(233, 240, 253);
   padding: 100px 0;
 }
-  
 
 .name-box {
   list-style: none;
