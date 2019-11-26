@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page">
-  
+  <div class="container-fluid">
   <div class="container">
-  <header class="page-header-clearfix">
-    <nav class="page-navigation">
+  <header class="page-header clearfix">
+    <nav class="page-navigation container">
       <a href="#" class="site-logo">
         <img src="image/LOGO.png" alt="logo">
       </a>
@@ -39,48 +39,26 @@
       </ul>
     </nav>                        
   </header>
-  <main class="main-container">
-    <div class="main-box">
-        <section class="slider-tours">
-            <div class="slider-container">
-              <div class="slider-card">
-                <button class="slider-button left-arrow">
-                </button>
-                <button class="slider-button right-arrow">
-                </button>
-
-
-                <!-- <button class="slider-button slider-button-left">
-                  <img src="image/стрілка ліворуч.png" alt="img">
-                </button>
-                <button class="slider-button slider-button-right">
-                  <img src="image/срілка праворуч.png" alt="img">
-                </button> -->
-
-
-                <ul class="slides"> 
-                  <li class="slides-item">
-                      <img class="slides-image" src="image/baner.png" alt="baner" width="">
-                        <ul class="slides-descr">
-                          <li>
-                            <p class="slides-descr-top">affordable paris tours</p>
-                          </li>
-                          <li>
-                            <p class="slides-descr-button">city tours/tour tickets/tour guides</p>
-                          </li>
-                        </ul>
-                  </li>
-                </ul>
+  <main>
+      <div class="container-fluid container slider">
+          <button class="slider-button left-arrow "></button>
+          <button class="slider-button right-arrow "></button>
+          <img class="slider-img" >
+          <ul class="slide-descr">
+              <li>
+                <p class="slide-descr-top">Affordable paris tours</p>
+              </li>
+              <li>
+                <p class="slide-descr-bottom">City tours/tour tickets/tour guides</p>
+              </li>
+            </ul>
+        </div>
                 <!-- <div class="slider-pagenation">
                   <span class="slider-pagenation-item"></span>
                   <span class="slider-pagenation-item slider-pagenation-active"></span>
                   <span class="slider-pagenation-item"></span>
                 </div> -->
-              </div>
-            </div>
-        </section>
-        <div class="container-fluid container-fluid--cards">
-        <section class="bottom-box clearfix">
+          <section class="container-fluid container bottom-box clearfix">
             <h2 class="name-box">New collection</h2>
               <div class="box-item clearfix">
                 <div class="products">
@@ -186,15 +164,11 @@
                           <img class="img-icon" src="image/візок.png" alt="add">
                           <span>Add to card</span>
                         </button>
-                
-                </div>
+                  </div>
                 </div>
               </div>
-        </section>
-        </div>
-    </div>
+            </section>
   </main>
-</div>
   <footer>
     <div class="info">
     <p class="info-ownership">All Rights Reserved © Dokan | Designed 
@@ -202,7 +176,8 @@
     </p>
   </div>
   </footer>
-
+</div>
+</div>
 </body>
     
 </html>
