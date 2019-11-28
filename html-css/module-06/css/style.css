@@ -1,7 +1,55 @@
-body{
-  margin: 0;
+.fluid{
+  width: 1920px;
+  margin: 0 auto;
 }
 
-header{
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue ;
+  margin: 0 auto;
   width: 1201px;
 }
+
+.menu-item a {
+  color: #95e1d3;
+  font-weight: 900;
+}
+
+.menu-item a:hover {
+  color:#f38181;
+}
+
+a{
+  text-decoration: none;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 491px;
+  font-family: "Open Sans", "sans-serif";
+  color: #0f0101;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0;
+  text-transform: uppercase;
+  height: 65px;
+}
+
+.site-navigation li {
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+}
+
+.menu-item{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+/* FUCHERS */

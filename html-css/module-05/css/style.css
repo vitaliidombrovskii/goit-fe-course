@@ -1,6 +1,5 @@
 
 .page{
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -77,26 +76,33 @@ a {
     /* СЛАЙДЕР */
 
 .container-fluid{
-  width: 1600px;
-  margin: auto;
-  background-color: #e9f0fd;
-}  
-     
+
+}
+      
 .container{
   width: 1110px;
-  margin: 0 auto;    
-}
-    
-.slider{
-  position: relative;
   margin: 0 auto;
+  position: relative;    
+}
+     
+.banner{
+  position: relative;
+  background-image: url(../image/baner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../image/baner.png);
+  min-height: 600px;
+  width: 100%;
+} 
+
+.box-button{
+position: absolute;
+top: 50%;
+left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.slider-button {
+.slider-button{
   width: 104px;
   height: 104px;
   position: absolute;
@@ -144,12 +150,6 @@ a {
   cursor: pointer;
 }
 
-.slider-img{
-  height: 600px;
-  object-fit: cover;
-  width: 100%;
-}
-
 .slide-descr{
   font-family: "Roboto";
   color: #fff;
@@ -169,7 +169,6 @@ a {
   font-size: 60px;
   margin: 0;
   padding: 0;
-  white-space: none;
 }
 .slide-descr-bottom{
   font-weight: 100;
