@@ -97,7 +97,6 @@ h3::after {
   background-color: rgb(243, 129, 129);
 }
 
-
 .article{
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +142,7 @@ p {
   color: rgb(153, 153, 153);
 }
 
-         /* section Team */
+         /* section TEAM */
 
 .team-text{
   width: 980px;
@@ -169,17 +168,36 @@ p {
   margin: 0;
 }
 
-.team-item img{
-  width: 380px;
-  height: 470px;
+.image-foto{
+  position: relative;
+}
+
+.layers{
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 470px;
+  min-width: 382px;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-11px, -11px);
+}
+
+.team-item li:hover .layers {
+  opacity: 0.9;
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+  transition: 0.2s linear;
 }
 
 .team-item li:hover .image-foto {
   transform: translate(-11px, -11px);
   box-shadow: 11px 11px 0px 0px #95e1d3;
+  opacity: 0.9;
 }
 
-.team-item li:hover {
+.image-foto:hover {
   opacity: 0.9;
 }
 
@@ -220,8 +238,6 @@ h5 {
 
 .icon img{
   border-radius: 3px;
-  width: 26px;
-  height: 26px;
 }
 
 .team-item {
@@ -230,15 +246,6 @@ h5 {
 
 .team-item li{
   position: relative;
-}
-
-.layers {
-  opacity: 0;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
 .icon {
