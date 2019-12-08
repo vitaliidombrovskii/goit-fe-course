@@ -1,0 +1,74 @@
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.page-navigation{
+  display: flex;
+  justify-content: space-between;
+  min-height: 65px;
+  align-items: center;
+  background: cyan;
+}
+
+.site-logo{
+  padding: 7px;
+  margin-top: 10px;
+}
+.site-navigation{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;  
+  width: 485px;
+  list-style: none;
+  
+}
+
+.menu-item a{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;  
+  text-decoration: none;
+  }
+
+.Services{
+  text-align: center;
+}
+.box-services-item { 
+  list-style: none;
+  text-decoration: none;
+}
+.Title-services{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Sub-title{
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+  }
+
+.Services-item ul{
+  display: flex;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .Name-item {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+  }
+ p {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+  }
+  
