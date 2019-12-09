@@ -1,27 +1,38 @@
+@font-face {
+  font-family: "PT Serif Caption", serif;
+  src: url("../fonts/pt-serif-caption-v11-latin-regular.woff");
+}
+
+.page{
+  width: 1400px;
+  margin: 0 auto;
+}
+
 .container{
-    width: 930px;
+    width: 940px;
     margin: 0 auto;
 }
 .page-navigation{
   display: flex;
   justify-content: space-between;
-  min-height: 65px;
-  align-items: center;
-  background: cyan;
+  min-height: 75px;
+  align-items:flex-end;  
 }
 
 .site-logo{
-  padding: 7px;
-  margin-top: 10px;
+  padding-left: 7px;
 }
 .site-navigation{
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 0;  
+  padding: 0; 
+  padding-bottom: 8px; 
   width: 485px;
   list-style: none;
-  
+}
+.site-navigation a:hover{
+  color: #fed136;
 }
 
 .menu-item a{
@@ -33,33 +44,85 @@
   text-decoration: none;
   }
 
-.Services{
+
+       /*  SERVICES */
+
+.Title{
   text-align: center;
+  margin-bottom: 77px;
+  padding-top: 110px;
+
 }
 .box-services-item { 
   list-style: none;
   text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 34px;
 }
+
+.box-services-item:nth-child(3n){
+  margin-right: 0;
+}
+
+.Services-item{
+  margin: 82px 0 124px 0;
+}
+
+.service-item-icon {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  border: 3px solid #fed136;
+}
+
+.basket, .laptop, .locked {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.basket {
+  background-image: url("../image/Icon-Basket.png");
+}
+
+.laptop {
+  background-image: url("../image/Icon-Laptop.png");
+}
+
+.locked {
+  background-image: url("../image/Icon-Locked.png");
+}
+
 .Title-services{
-    font-size: 40px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2{
+  color: rgb(34, 34, 34);
 }
 
 .Sub-title{
-    font-size: 16px;
-    font-family: "DroidSerif";
-    color: rgb(119, 119, 119);
-    font-style: italic;
-  }
-
+  font-size: 16px;
+  font-family: "DroidSerif";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  margin: 0;
+  margin-top: 24px;
+}
+ 
 .Services-item ul{
+  text-align: center;
   display: flex;
-    margin: 0 auto;
-    padding: 0;
-  }
+  margin: 0 auto;
+  padding: 0;
+}
+
   .Name-item {
     font-size: 18px;
     font-family: "Montserrat";
@@ -71,4 +134,90 @@
     font-family: "RobotoSlab";
     color: rgb(119, 119, 119);
   }
-  
+
+         /*  CONTACT */
+h4{
+  color: white;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 677px;
+  background-color: #222222;
+  background-image: url("../image/Map_Image.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 940px;
+  height: 385px;
+  background-color: transparent;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-info {
+  width: 455px;
+  height: 53px;
+  border-radius: 5px;
+}
+
+.data-info:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.message-text {
+  width: 455px;
+  height: 230px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.message-text::placeholder, .data-info::placeholder {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  color: #bbbbbb;
+  padding-left: 21px;
+  padding-top: 19px;
+}
+
+input[name="email"]:focus:invalid,
+textarea[name='message']:focus:invalid,
+input[name="name"]:focus:invalid {
+outline-color: #ff3319;
+transition: outline-color .5s;
+}
+
+input[name="email"]:focus:valid,
+textarea[name='message']:focus:valid,
+input[name="name"]:focus:valid {
+outline-color: #0fa316;
+transition: outline-color .4s;
+}
+
+.form-button {
+  margin: 0 auto;
+  width: 240px;
+  height: 65px;
+  border: none;
+  border-radius: 5px;
+  background: #fed136;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+ 
