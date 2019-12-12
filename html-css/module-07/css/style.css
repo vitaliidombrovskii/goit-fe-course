@@ -1,11 +1,50 @@
+/* Font-family */
+/* montserrat-regular - latin */
 @font-face {
-  font-family: "PT Serif Caption", serif;
-  src: url("../fonts/pt-serif-caption-v11-latin-regular.woff");
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
 }
 
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+    url('../fonts/montserrat-v14-latin-800.woff2') format('woff2'),
+    url('../fonts/montserrat-v14-latin-800.woff') format('woff');
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+    url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
+}
+
+/* noto-serif-italic - latin */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
+    url('../fonts/noto-serif-v8-latin-italic.woff2') format('woff2'),
+    url('../fonts/noto-serif-v8-latin-italic.woff') format('woff');
+}
+
+body{
+  margin: 0;
+}
 .page{
-  width: 1400px;
   margin: 0 auto;
+  background-color: #222222;
 }
 
 .container{
@@ -109,7 +148,7 @@ h2{
 
 .Sub-title{
   font-size: 16px;
-  font-family: "DroidSerif";
+  font-family: "Noto Serif";
   color: rgb(119, 119, 119);
   font-style: italic;
   margin: 0;
@@ -145,7 +184,7 @@ h4{
   flex-direction: column;
   align-items: center;
   height: 677px;
-  background-color: #222222;
+  background-color: #222222; 
   background-image: url("../image/Map_Image.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -167,9 +206,11 @@ h4{
 }
 
 .data-info {
-  width: 455px;
-  height: 53px;
+  width: 434px;
+  height: 43px;  
   border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 21px;  
 }
 
 .data-info:not(:last-child) {
@@ -177,10 +218,11 @@ h4{
 }
 
 .message-text {
-  width: 455px;
-  height: 230px;
-  padding: 0;
+  width: 434px;
+  height: 216px;
+  padding-top: 10px;
   border-radius: 5px;
+  padding-left: 21px;
 }
 
 .message-text::placeholder, .data-info::placeholder {
@@ -190,7 +232,9 @@ h4{
   font-size: 14px;
   color: #bbbbbb;
   padding-left: 21px;
-  padding-top: 19px;
+  vertical-align: middle;
+  line-height: 30px;
+  /* padding-top: 19px; */
 }
 
 input[name="email"]:focus:invalid,

@@ -4,13 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>MODULE-07</title>
 </head>
 <body>
-  <div class="page">
     <header class="page-header">
           <nav class="page-navigation container">
             <a href="#" class="site-logo">
@@ -37,6 +34,7 @@
           </nav>                        
     </header>
     <main>
+    <div>  
     <section class="Services container">
       <div class="Title">
         <h2 class="Title-services">Services</h2>
@@ -62,12 +60,13 @@
         </ul>   
       </div> 
     </section>
-    <section class="Contact">
+    <div class="page">
+        <section class="Contact container">
         <div class="Title">
             <h4 class="Title-services">Contact us</h4>
             <h5 class="Sub-title">Proin iaculis purus consequat sem cure</h5>
         </div>
-        <form class="contact-form container" action="#" method="POST">
+      <form class="contact-form container" action="#" method="POST">
             <section class="data">
                 <input class="data-info" type="text" name="name" placeholder="Your name*" required>
                 <input class="data-info" type="email" name="email" placeholder="Your e-mail*" required>
@@ -76,10 +75,12 @@
             <section class="message">
                 <textarea class="message-text" name="message" placeholder="Your message*" required></textarea>
             </section>
-            <button class="form-button">Send message</button>
-        </form>  
+            <button class="form-button" type="submit">Send message</button>
+          </form>
+        
     </section>
-    </main>
+    </div>
   </div>
+  </main>
 </body>
 </html>
