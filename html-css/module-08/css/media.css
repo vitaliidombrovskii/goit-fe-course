@@ -2,6 +2,9 @@
   .container {
     width: 671px;
   }
+  .heder{
+    min-height: 700px;
+  }
   .nav{
     flex-direction: row;
     /* padding: 0 49px; */
