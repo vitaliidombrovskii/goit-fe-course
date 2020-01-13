@@ -7,7 +7,6 @@
   }
   .nav{
     flex-direction: row;
-    /* padding: 0 49px; */
     justify-content: space-between
   }
   .site-logo{
