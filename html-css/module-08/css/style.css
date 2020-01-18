@@ -18,7 +18,7 @@ text-transform: uppercase;
 
 .banner{
   background-color: slategrey;
-  background-image: url(../image/baner.png);
+  background-image: url(../image/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
